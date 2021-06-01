@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Button, Input } from './button.jsx';
-import './app.css';
 
 const App = () => {
   return(<>
