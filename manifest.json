@@ -1,0 +1,21 @@
+{
+  "name": "dot. react",
+  "description" : "react version dot. collector",
+  "version": "2.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "dot.png"
+  },
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "current URL to dot"
+    }
+  },
+  "permissions": [ "tabs"]
+
+}
