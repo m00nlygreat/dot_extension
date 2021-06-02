@@ -7,11 +7,12 @@ const StyledButton = styled.button`
 
 const StyledInput = styled.input`
   border: 1px solid gray;
+  width: 100%;
 `
 
-const Button = () => {
+const Button = (props) => {
   return(
-   <StyledButton>hi</StyledButton>
+   <StyledButton>{props.label}</StyledButton>
   )
 }
 

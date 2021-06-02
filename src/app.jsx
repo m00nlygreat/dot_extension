@@ -4,8 +4,11 @@ import { Button, Input } from './button.jsx';
 
 const App = () => {
   return(<>
-    <Input/><Input/><Input/>
-    <Button label="hi"/>
+    <Input/><Input/>
+    <div>
+      <Input/>
+      <Button label="put."/>
+    </div>
     </>
   )
 }
