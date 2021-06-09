@@ -16,6 +16,10 @@
       "description": "current URL to dot"
     }
   },
-  "permissions": [ "tabs"]
+  "permissions": [ "tabs"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 
 }
+
+
+
